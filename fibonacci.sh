@@ -8,7 +8,8 @@ b=1
 echo "Fibonacci series:"
 for i in $(seq 1 $n); do
 	echo $a
-	fn=$((a + b))
+	#fn=$((a + b))
+	temp=$a
 	a=$b
-	b=$fn
+	b=$((b + temp))
 done

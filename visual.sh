@@ -29,7 +29,6 @@ bold=$(tput bold)
 underline=$(tput smul)
 blink=$(tput blink)
 
-echo "Hi"
 # Display text with different effects
 tput cup 1 1  # Move the cursor to row 1, column 1
 display_effect "$red" "$bg_black" "$bold" "" "" "Bold Red Text on Black"
